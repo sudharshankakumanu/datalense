@@ -1,21 +1,37 @@
-# datalense
-Visualization library for ML features 
+# DataLense
 
-Core Visualization Components
-Image/Video Overlays:
+**Visualize and browse your large-scale multimodal data.**
 
-Bounding boxes with customizable colors, labels, and confidence scores
-Semantic segmentation masks with alpha blending
-Instance segmentation with different colors per instance
-Keypoints and skeletal connections
-Depth maps with customizable colormaps
-Heatmaps for attention/saliency visualization
-Object tracking trails over video frames
+DataLense is a visualization library designed to help machine learning practitioners explore, understand, and analyze large multimodal datasets. Whether you're working with images, videos, text, or audio, DataLense provides intuitive tools to browse and visualize your data at scale.
 
-Dataset-Level Analysis:
+## Features
 
-Feature distribution histograms and density plots
-Class balance visualization
-Annotation quality metrics (IoU distributions, etc.)
-Random sampling grids with filtering capabilities
-Temporal analysis for video datasets
+### Image & Video Overlays
+
+- **Bounding boxes** — Customizable colors, labels, and confidence scores
+- **Semantic segmentation** — Masks with alpha blending for clear visualization
+- **Instance segmentation** — Distinct colors per instance for easy differentiation
+- **Keypoints & skeletons** — Pose estimation and skeletal connection visualization
+- **Depth maps** — Customizable colormaps for depth perception
+- **Heatmaps** — Attention and saliency visualization
+- **Object tracking** — Motion trails across video frames
+
+### Dataset-Level Analysis
+
+- **Feature distributions** — Histograms and density plots
+- **Class balance** — Visualize dataset composition and identify imbalances
+- **Annotation quality** — IoU distributions and quality metrics
+- **Sample grids** — Random sampling with filtering capabilities
+- **Temporal analysis** — Video dataset exploration over time
+
+## Use Cases
+
+- Exploring large-scale computer vision datasets
+- Debugging ML model predictions with visual overlays
+- Analyzing annotation quality before training
+- Understanding feature distributions across your data
+- Browsing multimodal datasets (images, video, text, audio)
+
+## License
+
+Apache-2.0
