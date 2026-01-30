@@ -1,0 +1,29 @@
+[project]
+name = "datalense"
+version = "0.1.0"
+description = "Visualize and browse your large-scale multimodal data"
+readme = "README.md"
+authors = [
+    { name = "Sudharshan Kakumanu", email = "559726@mgmresorts.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+db = [
+    "lancedb>=0.6.0",
+]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+]
+all = [
+    "datalense[db,dev]",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
