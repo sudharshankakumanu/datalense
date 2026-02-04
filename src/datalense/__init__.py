@@ -2,7 +2,11 @@
 
 __version__ = "0.1.0"
 
-from datalense.db import LenseDB
-from datalense.search import nearest, text
+from datalense.dataset import Dataset, DatasetItem, SearchResults
 
-__all__ = ["LenseDB", "nearest", "text", "__version__"]
+__all__ = [
+    "__version__",
+    "Dataset",
+    "DatasetItem",
+    "SearchResults",
+]
